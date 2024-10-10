@@ -90,7 +90,7 @@ The `napari_sort_v3.py` script is designed to help users visually inspect and so
 
 ---
 
-## Key Components & Workflow
+#### Key Components & Workflow
 
 1. **Folder Selection via Tkinter GUI**:
     - Users can select directories for images, masks, and chromosome data, as well as a destination folder where files will be moved.
