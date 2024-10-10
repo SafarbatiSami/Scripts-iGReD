@@ -31,7 +31,7 @@ This Python script, integrated with OMERO (an open-source platform for managing,
 - Randomly selects a specified number of images from each prefix group within a dataset.
 - Moves the selected images to a new dataset.
 - Groups images by common prefixes (e.g., parts of filenames before underscores or hyphens).
-- Provides a command-line interface for specifying input and output datasets as well as the number of images to select per prefix.
+- Provides a graphical user interface for specifying input and output datasets as well as the number of images to select per prefix.
 
 #### How it works:
 1. **Dataset and Image Selection**: 
