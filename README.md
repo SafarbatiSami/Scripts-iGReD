@@ -23,6 +23,8 @@ This script provides a graphical user interface (GUI) for deleting specific file
 
 This script is useful for bulk deleting files based on predefined lists, helping users avoid manually removing files.
 
+---
+
 ### 2. `Random_image_selector.py`
 This Python script, integrated with OMERO (an open-source platform for managing, visualizing, and analyzing microscopy images), is designed to randomly select images from datasets and move them to a specified output dataset. It groups images based on common filename prefixes and ensures a certain number of images per prefix are selected for transfer.
 
@@ -60,6 +62,8 @@ This Python script, integrated with OMERO (an open-source platform for managing,
 2. The script groups images by their filename prefixes (e.g., `sample_A_1.jpg` and `sample_A_2.jpg` share the prefix `sample_A_`).
 3. A random subset of images from each prefix group is moved to a new dataset for further analysis or processing.
 
+---
+
 ### 3. `folder_comparator_v2.py`
 This Python script provides a GUI-based tool for comparing the contents of two folders. It identifies common files, as well as files that are unique to each folder, and offers the option to rename unique files by adding a prefix.
 
@@ -85,10 +89,12 @@ This Python script provides a GUI-based tool for comparing the contents of two f
 
 This script is ideal for comparing folder contents in scenarios like backup verification, data synchronization, or content audits.
 
+---
+
 ### 4. `napari_sort_v3.py`
 The `napari_sort_v3.py` script is designed to help users visually inspect and sort image datasets. Using **Napari** for visualization and **Tkinter** for folder selection, the script allows for interactive browsing and manual sorting of images, masks, and chromocenters images. Files can be moved to specified destination folders, with the process logged for reference.
 
----
+
 
 #### Key Components & Workflow
 
